@@ -1,0 +1,47 @@
+.hero {
+    background: url(../assets/webp/hero_bg.webp) center/cover no-repeat;
+    width: 100%;
+    height: 895px;
+}
+
+
+.hero__content {
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-top: 180px;
+}
+
+.hero__title {
+    color: #01996D;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.hero__desc {
+    margin: 25px 0 50px;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: 700px;
+    }
+
+    .hero__content {
+        padding-top: 80px;
+    }
+    
+}
+@media (max-width: 480px) {
+    .hero {
+        background: url(../assets/webp/hero_bg.webp) 60%/cover no-repeat;
+    }
+
+    .hero__title {
+        font-size: 45px;
+        max-width: 350px;
+    }
+    
+}
