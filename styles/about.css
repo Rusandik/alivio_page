@@ -1,0 +1,50 @@
+.about {
+    padding: 160px 0 60px;
+}
+
+
+
+.about__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__title {
+    max-width: 500px;
+    font-weight: 700;
+    font-size: 50px;
+    color: #01996D;
+    position: relative;
+}
+
+.about__title::before {
+    content: 'How it works';
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    top: -30px;
+    left: 0;
+}
+
+.about__desc {
+    max-width: 650px;
+    color: #424242;
+}
+
+
+@media(max-width: 576px) {
+    .about__content {
+
+        padding: 0 15px;
+    }
+
+    .about__title {
+        font-size: 32px;
+    }
+
+    .about__desc {
+        font-size: 16px;
+    }
+}
