@@ -64,4 +64,22 @@
     .header__nav {
         display: none;
     }
+
+    .header__wrapper {
+      padding-left: 50px;
+    }
+
+    .btn--trial{
+      padding: 13px 15px;
+    }
+
+    .header__actions {
+      column-gap: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+  .logo_img {
+    width: 60px;
+  }
 }
