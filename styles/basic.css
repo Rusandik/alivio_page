@@ -23,6 +23,9 @@ a {
     color: unset;
 }
 
+h1,h2,h3,h4,h5,p {
+    margin: 0;
+}
 
 .container {
     max-width: 1440px;
@@ -42,6 +45,7 @@ a {
     border: none;
     padding: 20px 50px;
     border-radius: 4px;
+    text-transform: capitalize;
 }
 
 
